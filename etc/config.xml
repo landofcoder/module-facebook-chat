@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Landofcoder
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the Landofcoder.com license that is
+ * available through the world-wide-web at this URL:
+ * http://www.landofcoder.com/license-agreement.html
+ * 
+ * DISCLAIMER
+ * 
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ * 
+ * @category   Landofcoder
+ * @package    Lof_FacebookChat
+ * @copyright  Copyright (c) 2017 Landofcoder (http://www.landofcoder.com/)
+ * @license    http://www.landofcoder.com/LICENSE-1.0.html
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <facebookchat>
+        	<general_settings>
+        		<enable>1</enable>
+        		<page_id>456297417765642</page_id>
+        		<theme_color>#0084ff</theme_color>
+        		<logged_in_greeting>Hi! How can we help you?</logged_in_greeting>
+        		<logged_out_greeting>Hi! How can we help you?</logged_out_greeting>
+                <language>en_US</language>
+        	</general_settings>
+        </facebookchat>
+    </default>
+</config>
